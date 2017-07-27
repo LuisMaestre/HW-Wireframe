@@ -1,100 +1,55 @@
-p{color:777;}
-
-body{background-color:#777; 
-    font-size:24px; 
-}
-#header{
-    text-align:center; 
-    color:#777;
-    width:70%; 
-    margin:auto;
-    background: #ebebeb;
-    padding:20px;
-    margin-bottom: 20px;
-   
-
-
-}
-#nav{
-    text-align:center; 
-    width:70%; 
-    margin:auto;
-    background: #ebebeb;
-    padding:20px;
-    margin-bottom: 20px;
-    color:#777;
-
-}
-#wrapper{width:50%; 
-    height:100%; 
-    margin:auto;
-    background:white;
-    padding:20px;
-    margin-bottom: 20px;
-    color:#777;
-
-}
-#article{
-        float:left;
-    height:100%;  
-    width:40%;
-    color:white;
-    background-color:#ebebeb;
-    margin:auto;
-    background: #ccc;
-    padding:100px;
-    margin-top:10px; 
-    margin-bottom: 20px;
-    line-height:1px;
-    
-
-
-}
-
-#heading{ 
-    height: 50%;
-    width:50%; 
-    margin:auto;
-    background-color:#ebebeb;
-    padding:20px;
-    margin-bottom: 20px;
-    color:#777;
-
-
-}
-
-#small{
-    margin-top: 100px;
-    background-color:#777;
-    text-align: center;  
-    height: 50%;
-    width:50%; 
-    margin:auto;
-    color:#777;
-
-
-}
-#side{
-    float: right;
-    height:100%;  
-    width:40%;
-    background-color:#ebebeb;
-    margin:auto;
-    background: #ccc;
-    padding:60px;
-    margin-top:10px; 
-    margin-bottom: 20px;
-    line-height:1px;
-    
-
-
-
-}
-#footer{ clear:both;
+header, nav, section, aside, footer {
+    background-color: #ebebeb;
+    color: #777;
+    margin-top: 15px;
     text-align: center;
-    width:70%; 
-    margin:auto;
-    padding:20px;
-    background-color:#ebebeb;  
-    color:#777; 
+    padding: 25px;
 }
+
+header, nav, footer {
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+
+body {
+    background-color: #777;
+    font-family: 'Roboto', sans-serif;
+}
+
+article {
+    background-color: #777;
+    color: #ebebeb;
+    padding: 15px;
+    margin-top: 15px;
+    display: block;
+
+}
+
+section {
+    float: left;
+    margin-bottom: 15px;
+    height: 225px;
+    width: 30%;
+    margin-left: 150px;
+}
+
+article div, article p {
+    background-color: #ebebeb;
+    color: #777;
+    padding: 15px;
+    margin-top: 15px;
+    height: 25px;
+}
+aside {
+    float: right;
+    height: 225px;
+    width: 30%;
+    margin-right: 150px;
+}
+
+footer {
+    clear: both;
+    margin-bottom: 15px;
+}
+Add Comment Co
